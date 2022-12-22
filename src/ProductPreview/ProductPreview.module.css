@@ -1,0 +1,47 @@
+
+.PreviewDiv{
+    width: 50%;
+}
+
+.PreviewDiv > img{;
+    width: 100%;
+}
+
+.PreviewFDivTimeSection{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-45%,-50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.PreviewDivHeartRateSection{
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    transform: translate(-40%,-59%);
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+.PreviewDivHeartRateSection > i{
+    color: red;
+    animation: beat 1s infinite;
+}
+@keyframes beat {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.1,1.1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+.PreviewDivHeartRateSection > p{
+    margin-top: 0;
+    margin-bottom: 11px;
+}

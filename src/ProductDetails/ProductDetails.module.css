@@ -1,0 +1,60 @@
+.ProductDiv{
+    width: 50%;
+}
+
+.ProductTitle{
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.ProductDesc{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+.SelectHeading{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+.images{
+    width: 100%;
+    max-width: 70px;
+    margin-right: 0.6rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.SelectedImages{
+    border: 2px solid teal;
+}
+
+.FeatureItem{
+    min-width: 80px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    margin-right: 0.7rem;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-weight: 600;
+    box-sizing: content-box;
+    /* color: antiquewhite; */
+}
+.SelectedItem{
+    background-color: darkgrey;
+}
+
+.BuyBtn{
+    min-width: 43%;
+    background-color: orange;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 12px 24px;
+    font-weight: 600;
+    box-sizing: content-box;
+}
